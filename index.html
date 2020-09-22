@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+<div class="container">
+    <div class="navbar">
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo" width="125px"></a>
+    </div>
+    <nav>
+        <ul id="MenuItems">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="account.html">Account</a></li>
+    </ul></nav>
+    <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px"></a>
+    <img src="images/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+</div>
+<div class="row">
+    <div class="col2"><h1>A Wonderful collection...<br>For your comfort!</h1>
+    <p>Fashion is all about comfort at its best, blended with a taste of coolness.<br>Here
+        you get to choose both at once. </p></div>
+        <a href="" class="btn">Explore &#8594</a>
+    <div class="col2"><img src="images/image1.jpg" alt="pic"></div>
+</div>
+</div>
+</div>
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="images/category-1.jpg" alt="image">
+        </div>
+        <div class="col-3">
+            <img src="images/category-2.jpg" alt="image">
+        </div>
+        <div class="col-3">
+            <img src="images/category-3.jpg" alt="image">
+        </div>
+    </div>
+    </div>
+</div>
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+           <a href="prod-details.html"><img src="images/product-1.jpg" alt="tshirt"></a>
+            <a href="prod-details.html"><h4>Red T-Shirt</h4></a>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$30.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-2.jpg" alt="shoes">
+            <h4>Black Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$100.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-3.jpg" alt="trousers">
+            <h4>Trousers</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-4.jpg" alt="tshirt">
+            <h4>Blue T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$30.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+     <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg" alt="shoes">
+            <h4>Grey Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$90.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-6.jpg" alt="tshirt">
+            <h4>Black T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$40.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-7.jpg" alt="socks">
+            <h4>Socks</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$45.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-8.jpg" alt="watch">
+            <h4>Black Watch</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            </div>
+            <p>$120.00</p>
+        </div>
+    </div>
+     <div class="row">
+        <div class="col-4">
+            <img src="images/product-9.jpg" alt="watch">
+            <h4>Grey Watch</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$100.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-10.jpg" alt="shoes">
+            <h4>Premium Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            </div>
+            <p>$150.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-11.jpg" alt="shoes">
+            <h4>Walking Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$90.00</p>
+        </div>
+         <div class="col-4">
+            <img src="images/product-12.jpg" alt="trousers">
+            <h4>Black Trousers</h4>
+            <div class="rating">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <p>$85.00</p>
+        </div>
+    </div>
+    </div>
+    <h2 class="title">Exclusive Smart Bands</h2>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" alt="smart band" class="offer-img">
+                </div>
+                <div class="col-2"><p><b>Available only at the stores of our site.</b></p><br>
+                <a href="" class="btn btn1">Buy Now</a>
+                <br><small><b>Stays completely in sync with your activities and accurately 
+                monitors your health.</b></small>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands"><div class="small-container"><div class="row"><div class="col-5">
+        <img src="images/logo-coca-cola.png" alt="logo">
+    </div>
+    <div class="col-5">
+        <img src="images/logo-godrej.png" alt="logo">
+    </div>
+    <div class="col-5">
+        <img src="images/logo-paypal.png" alt="logo">
+    </div>
+    <div class="col-5">
+        <img src="images/logo-philips.png" alt="logo">
+    </div>
+</div></div></div>
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        MenuItems.style.maxHeight="200px";
+        else
+        MenuItems.style.maxHeight="0px";
+    }
+</script>
+</body>
+</html>
